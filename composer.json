@@ -1,0 +1,18 @@
+{
+    "name": "soul/php_composer_simple_project",
+    "description": "this is a simple project for a devops demo",
+    "autoload": {
+        "psr-4": {
+            "Soul\\PhpComposerSimpleProject\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "redouane soul",
+            "email": "redouane.soul-trainee@jesagroup.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
