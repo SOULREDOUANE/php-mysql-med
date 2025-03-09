@@ -12,7 +12,7 @@ class Database {
             $_ENV['DB_USER'],
             $_ENV['DB_PASS']
         );
-
+        
         $this->connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     }
 
